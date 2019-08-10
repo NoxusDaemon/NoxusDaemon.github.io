@@ -1,13 +1,9 @@
-import React from "react";
-import GameContainer from "./Components/Game/GameContainer";
-import "./App.css";
+import React from 'react'
+import './App.css'
+import GameContainer from './Components/Game/GameContainer'
 
 const App: React.FC = () => {
-  return (
-    <div className="App">
-      <GameContainer />
-    </div>
-  );
-};
+  return <GameContainer />
+}
 
-export default App;
+export default App
